@@ -1,0 +1,153 @@
+html {
+    font-size: 16px;
+    margin: 0;
+    font-family:monospace;
+    font-weight: 700;
+
+} 
+body {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgb(246, 194, 208);
+}
+
+.container {
+    width: 25rem;
+    height: 32rem;
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+    border-radius: 2rem;
+    border-style: dashed;
+   
+    background-color: white;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.header {
+    height: 4rem;
+    width: 100%;
+    background-color: black;
+    display: block;
+
+    position: absolute;
+    top: 0%;
+
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+  
+   
+}
+
+.header-title {
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.total {
+    color: black;
+    margin-top: 4.5rem;
+}
+
+.amount {
+    margin-top: 0.5rem;    
+}
+
+.dollar {
+    position: absolute;
+    top: 6.5rem;
+    left: 5.7rem;
+}
+
+.question {
+    margin-top: 0.5rem;
+}
+
+.select {
+    margin-top: 0.5rem;
+    width: 10rem;
+    height: 3rem;
+}
+
+.select-name {
+    text-align: center;
+}
+
+.question-number {
+    margin-top: 0.5rem;
+}
+
+
+.number-people {
+    margin-top: 0.5rem;
+
+    width: 12rem;
+    height: 2rem;
+
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: block;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 3rem;
+    background-color: rgb(168, 33, 33);
+    font-size: 1rem;
+    color: white;
+    border-style: none;
+    transition: background-color .2s linear;
+
+
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(139, 11, 11); ;
+
+
+}
+
