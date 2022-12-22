@@ -14,23 +14,23 @@
                 <p class="header-title">Tip calculator</p>
             </div><!--Header-->
             <p class="total">Total bill amount:</p>
-            <input type="text" class="amount" name="" id="" placeholder="Amount...">
+            <input type="text" class="amount" name="" id="attemptAmount" placeholder="Amount...">
             <p class="dollar">$</p>
             <p class="question">How would you rate service?</p>
-            <select class="select">
+            <select class="select" id="serviceTip">
                 <option class="select-name" disabled selected value="0">Choose an option</option>
-                <option>0%</option>
-                <option>5%</option>
-                <option>10%</option>
-                <option>20%</option>
-                <option>30%</option>
+                <option value="0">0%</option>
+                <option value="0.05">5%</option>
+                <option value="0.1">10%</option>
+                <option value="0.2">20%</option>
+                <option value="0.3">30%</option>
             </select>
             <p class="question-number">Split the bill between how many people?</p>
-            <input class="number-people" placeholder="Number of people">
+            <input class="number-people" id="numberPeople" placeholder="Number of people">
             <div class="button-container">
-            <button type="button" class="button">Calculate</button>
+            <button type="button" class="button" onclick="calculateSplit()">Calculate</button>
         </div><!-- Button container-->
-        <p class="result"></p>
+        <p class="resultText" id ="resultText">Your tip will be here</p>
         </div><!-- Container -->
     </div><!-- Page-->
     <script src="app.js"></script>
