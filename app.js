@@ -10,5 +10,6 @@ function calculateSplit() {
     let newTip = amountValue * tipValue;
     let newAmount = amountValue + newTip;
     let resultAmount = newAmount / attemptPeople;
-    document.getElementById('resultText').innerHTML = 'TIP AMOUNT' + '<br>' + resultAmount + "$" + '<br>' + "for each";
+    let resultAmount1 = Math.round(resultAmount*100) / 100;
+    document.getElementById('resultText').innerHTML = 'TIP AMOUNT' + '<br>' + resultAmount1 + "$" + '<br>' + "for each";
 }

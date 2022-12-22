@@ -88,12 +88,19 @@ p {
 
 .amount {
     margin-top: 0.5rem;    
+    font-size: 1rem;
+    font-family:monospace;
+
+}
+.amount::placeholder {
+    font-family:monospace;
+
 }
 
 .dollar {
     position: absolute;
     top: 6.5rem;
-    left: 5.7rem;
+    left: 5rem;
 }
 
 .question {
@@ -102,8 +109,11 @@ p {
 
 .select {
     margin-top: 0.5rem;
-    width: 10rem;
+    width: 12rem;
     height: 3rem;
+    font-size: 1rem;
+    font-family:monospace;
+
 }
 
 .select-name {
@@ -117,9 +127,17 @@ p {
 
 .number-people {
     margin-top: 0.5rem;
+    font-family:monospace;
 
     width: 12rem;
     height: 2rem;
+
+}
+
+.number-people::placeholder {
+    font-family:monospace;
+    font-size: 1rem;
+
 
 }
 
