@@ -90,9 +90,10 @@ p {
     margin-top: 0.5rem;    
     font-size: 1rem;
     font-family:monospace;
-
+    
 }
 .amount::placeholder {
+    font-size: 1rem;
     font-family:monospace;
 
 }
@@ -131,6 +132,7 @@ p {
 
     width: 12rem;
     height: 2rem;
+    font-size: 1rem;
 
 }
 
