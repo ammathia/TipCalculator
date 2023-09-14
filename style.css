@@ -1,5 +1,5 @@
 html {
-    font-size: 20px;
+    font-size: 15px;
     margin: 0;
     font-family:monospace;
     font-weight: 700;
@@ -160,6 +160,7 @@ p {
     color: white;
     border-style: none;
     transition: background-color .2s linear;
+    border-radius: 0.8rem ;
 
 
 }
